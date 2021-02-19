@@ -3,35 +3,35 @@ const input = document.getElementById("searchbar");
 const photos = [
     {
         name: "photos\\aspen.jpg",
-        tags: '"trees","tree","colors","forest","fall","aspen","dark","clouds","cloudy","autumn","orange","green","colorado"'
+        tags: '"all",trees","tree","colors","forest","fall","aspen","dark","clouds","cloudy","autumn","orange","green","colorado"'
     },
     {
         name: "photos\\beachBW.jpg",
-        tags: '"beach","black","white","rocks","california","water","ocean","sand","cloudy","clouds","grey","landscape","seascape","long","exposure"'
+        tags: '"all","beach","black","white","rocks","california","water","ocean","sand","cloudy","clouds","grey","landscape","seascape","long","exposure"'
     },
     {
         name: "photos\\beachsunset.jpg",
-        tags: '"beach,rocks,california,water,ocean,sand,cloudy,clouds,landscape,seascape,long,exposure,colors,pink,orange,purple,smooth"'
+        tags: '"all","beach,rocks,california,water,ocean,sand,cloudy,clouds,landscape,seascape,long,exposure,colors,pink,orange,purple,smooth"'
     },
     {
         name: "photos\\cityscape.jpg",
-        tags: '"city","long","exposure","skyscrapers","orange","blue","sunset","atlanta","highway","georgia","cars","lights"'
+        tags: '"all","city","long","colors","exposure","skyscrapers","orange","blue","sunset","atlanta","highway","georgia","cars","lights"'
     },
     {
         name: "photos\\mountains.jpg",
-        tags: '"mountains","landscape","mountain","light","orange","yellow","sunrise","forest","clouds","sun","trees","tennessee"'
+        tags: '"all","mountains","landscape","colors","mountain","light","orange","yellow","sunrise","forest","clouds","sun","trees","tennessee"'
     },
     {
         name: "photos\\nightscape.jpg",
-        tags: '"city","long","exposure","skyscrapers","orange","blue","night","atlanta","highway","georgia","cars","lights"'
+        tags: '"all","city","long","exposure","colors","skyscrapers","orange","blue","night","atlanta","highway","georgia","cars","lights"'
     },
     {
         name: "photos\\skyscrapers.jpg",
-        tags: '"skyscrapers","black","white","clouds","fog","atlanta","georgia","buildings","city","up"'
+        tags: '"all","skyscrapers","black","white","clouds","fog","atlanta","georgia","buildings","city","up"'
     },
     {
         name: "photos\\waterfall.jpg",
-        tags: '"waterfall","water","georgia","blue","tree","ice","winter","icicles","creek","rocks","sticks","brown","long","exposure"'
+        tags: '"all","waterfall","water","colors","georgia","blue","tree","ice","winter","icicles","creek","rocks","sticks","brown","long","exposure"'
     }
 ];
 
