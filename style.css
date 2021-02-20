@@ -8,7 +8,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 1fr;
+    grid-template-rows: 10vh 1fr;
 }
 
 .zone {
@@ -16,8 +16,7 @@ body {
 }
 
 .search {
-    margin: 1rem;
-    margin-bottom: 30px;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
