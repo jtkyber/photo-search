@@ -4,7 +4,7 @@ const input = document.getElementById("searchbar");
 const photos = [
     {
         name: "photos\\aspen.jpg",
-        tags: "all,nature,leaf,leaves,trees,colors,forests,fall,aspens,dark,clouds,cloudy,autumn,oranges,greens",
+        tags: "all,nature,leaf,leaves,trees,colors,forests,fall,aspens,dark,clouds,cloudy,autumn,oranges,green,yellows",
         location: "colorado,"
         // tags: ["all","trees","tree","colors","forest","fall","aspen","dark","clouds","cloudy","autumn","orange","green","colorado"]
     },
@@ -142,7 +142,7 @@ const photos = [
     },
     {
         name: "photos\\tunnelartist.jpg",
-        tags: "all,graffitiartists,man,men,male,boys,colors,yellows,dark,lights",
+        tags: "all,graffitiartists,man,men,male,boys,person,colors,yellows,dark,lights",
         location: "atlanta,georgia,krogstreettunnel"
     },
 ];
