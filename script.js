@@ -166,7 +166,7 @@ const loadPhotos = (event) => {
             img.classList.add("hovereffect");
             setTimeout(addBorder = () => {
                 img.classList.add("imgborder");
-            },);
+            }, 100);
         }
     })
 }
