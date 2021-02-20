@@ -177,10 +177,13 @@ const clearPhotos = () => {
 
 const addPhotosAfterKeypress = (event) => {
     if (inputLength() > 0 && event.keyCode === 13) {
-        input.value = input.value.replace(/ /g, "");
+        input.value = input.value.replace(/ |-|_|\.|,|!|$/g, "");
         if (input.value === "men" || input.value === "man" || input.value === "male") {
             input.value = input.value.replace(input.value, "boys");
             // input.value = input.value.replace(/men/g, "boys");
+        }
+        if (input.value === "tree") {
+            input.value = "trees";
         }
         clearPhotos();
         loadPhotos();
